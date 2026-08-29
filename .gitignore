@@ -1,0 +1,19 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志和临时文件
+*.log
+*.tmp
+
+# 敏感信息（密码、密钥）—— 永远别提交！
+.env
+*.key
+*.pem
+
+# Python 缓存（以后写 Python 会用到）
+__pycache__/
+*.pyc
+
+# Node 依赖（以后写 JS 会用到）
+node_modules/
