@@ -10,3 +10,7 @@
 
 - `index.html` - 网页主文件
 - `.gitignore` - Git 忽略规则
+
+## 在线访问
+
+点击这里访问：https://paulownia1.github.io/my-website/
