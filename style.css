@@ -1,0 +1,62 @@
+/* 整个页面的基础样式 */
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+/* 导航栏 */
+.navbar {
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.navbar a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #667eea;
+    font-weight: bold;
+}
+.navbar a:hover {
+    color: #764ba2;
+}
+
+/* 中间内容区 */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* 图片 */
+.banner-img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+/* 标题 */
+h1 {
+    color: #764ba2;
+    margin-top: 0;
+}
+
+/* 技能列表里的项目 */
+.skill {
+    background: #f3f4ff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+/* 页脚 */
+.footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
